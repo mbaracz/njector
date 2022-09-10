@@ -1,5 +1,7 @@
 # njector
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build](https://github.com/mbaracz/njector/actions/workflows/maven.yml/badge.svg)](https://github.com/mbaracz/njector/actions/workflows/maven.yml)
+[![](https://jitpack.io/v/mbaracz/njector.svg)](https://jitpack.io/#mbaracz/njector)
 
 Njector is an lightweight spring-like dependency injector for Java with small memory footprint.
 
@@ -11,6 +13,22 @@ $ git clone https://github.com/mbaracz/njector.git
 ```
 $ cd njector
 $ mvn clean install
+```
+You also can download this, as a dependency using the following setup.
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```xml
+<dependency>
+    <groupId>com.github.mbaracz</groupId>
+    <artifactId>njector</artifactId>
+    <version>1.0-SNAPSHOT</version>
+</dependency>
 ```
 
 ### Features & usage
